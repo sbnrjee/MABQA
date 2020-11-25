@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="Suite" parallel="classes">
+	<test name="Czech-Chrome Regress suite">
+		<parameter name="Automation" value="selenium" />
+		<parameter name="Browser" value="chrome" />
+		<parameter name="Market" value="romania" />
+		<parameter name="PlatformName" value="" />
+		<parameter name="PlatformVersion" value="" />
+		<parameter name="DeviceName" value="" />
+		<parameter name="udid" value="" />
+		<parameter name="AppiumVersion" value="" />
+		<parameter name="DeviceOrientation" value="" />
+		<parameter name="Application" value="angular"/> 
+		<classes>
+			<class name="PAO.PlaceAnOrderFlow" />
+		</classes>
+	</test> <!-- test -->
+	<!-- 
+	<test name="Romania-Chrome Regress suite">
+		<parameter name="Automation" value="selenium" />
+		<parameter name="Browser" value="chrome" />
+		<parameter name="Market" value="romania" />
+		<parameter name="PlatformName" value="" />
+		<parameter name="PlatformVersion" value="" />
+		<parameter name="DeviceName" value="" />
+		<parameter name="udid" value="" />
+		<parameter name="AppiumVersion" value="" />
+		<parameter name="DeviceOrientation" value="" />
+		<parameter name="Application" value="angular"/> 
+		<classes>
+			<class name="quickView.QuickViewAddProductToActivePendingOrderTest" />
+		</classes>
+	</test> test
+	
+	<test name="Hungary-Chrome Regress suite">
+		<parameter name="Automation" value="selenium" />
+		<parameter name="Browser" value="chrome" />
+		<parameter name="Market" value="hungary" />
+		<parameter name="PlatformName" value="" />
+		<parameter name="PlatformVersion" value="" />
+		<parameter name="DeviceName" value="" />
+		<parameter name="udid" value="" />
+		<parameter name="AppiumVersion" value="" />
+		<parameter name="DeviceOrientation" value="" />
+		<parameter name="Application" value="angular"/> 
+		<classes>
+			<class name="quickView.QuickViewAddProductToActivePendingOrderTest" />
+		</classes>
+	</test> test
+	
+	<test name="Poland-Chrome Regress suite">
+		<parameter name="Automation" value="selenium" />
+		<parameter name="Browser" value="chrome" />
+		<parameter name="Market" value="poland" />
+		<parameter name="PlatformName" value="" />
+		<parameter name="PlatformVersion" value="" />
+		<parameter name="DeviceName" value="" />
+		<parameter name="udid" value="" />
+		<parameter name="AppiumVersion" value="" />
+		<parameter name="DeviceOrientation" value="" />
+		<parameter name="Application" value="angular"/> 
+		<classes>
+			<class name="quickView.QuickViewAddProductToActivePendingOrderTest" />
+		</classes>
+	</test> test
+	
+	<test name="Bulgaria-Chrome Regress suite">
+	+-+3*
+	klpojm**''	<parameter name="Automation" value="selenium" />
+		<parameter name="Browser" value="chrome" />
+		<parameter name="Market" value="bulgaria" />
+		<parameter name="PlatformName" value="" />
+		<parameter name="PlatformVersion" value="" />
+		<parameter name="DeviceName" value="" />
+0		<parameter name="udid" value="" />
+0		<parameter name="udid" value="" />
+		<parameter name="AppiumVersion" value="" />
+		<parameter name="DeviceOrientation" value="" />
+		<parameter name="Application" value="angular"/> 
+		<classes>
+			<class name="quickView.QuickViewAddProductToActivePendingOrderTest" />
+		</classes>
+	</test> test -->
+</suite> <!-- Suite -->
+
+
+
+
+
+

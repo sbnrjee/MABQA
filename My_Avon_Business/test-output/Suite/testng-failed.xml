@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" name="Czech-Chrome Regress suite(failed)" parallel="classes">
+    <parameter name="PlatformName" value=""/>
+    <parameter name="PlatformVersion" value=""/>
+    <parameter name="Automation" value="selenium"/>
+    <parameter name="AppiumVersion" value=""/>
+    <parameter name="udid" value=""/>
+    <parameter name="Market" value="romania"/>
+    <parameter name="Application" value="angular"/>
+    <parameter name="DeviceOrientation" value=""/>
+    <parameter name="Browser" value="chrome"/>
+    <parameter name="DeviceName" value=""/>
+    <classes>
+      <class name="PAO.PlaceAnOrderFlow">
+        <methods>
+          <include name="startAnOrder"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="setDataAgain"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- PAO.PlaceAnOrderFlow -->
+    </classes>
+  </test> <!-- Czech-Chrome Regress suite(failed) -->
+</suite> <!-- Failed suite [Suite] -->

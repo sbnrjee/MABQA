@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My_Avon_Business by groups]">
+  <test thread-count="5" name="GRP-SmokeTest(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="OrderPlacement.PlaceAnOrderFlow">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="startAnOrder"/>
+          <include name="beforeSuite"/>
+          <include name="setDataAgain"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- OrderPlacement.PlaceAnOrderFlow -->
+    </classes>
+  </test> <!-- GRP-SmokeTest(failed) -->
+</suite> <!-- Failed suite [My_Avon_Business by groups] -->
