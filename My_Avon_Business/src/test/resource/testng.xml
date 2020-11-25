@@ -5,7 +5,7 @@
 	<test name="Czech-Chrome Regress suite">
 		<parameter name="Automation" value="selenium" />
 		<parameter name="Browser" value="chrome" />
-		<parameter name="Market" value="romania" />
+		<parameter name="Market" value="czech" />
 		<parameter name="PlatformName" value="" />
 		<parameter name="PlatformVersion" value="" />
 		<parameter name="DeviceName" value="" />
